@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family:'DM Sans', sans-serif;
+    background-color: hsl(27, 66%, 92%);
+}
+
+.balance{
+    background-color: hsl(10, 79%, 65%);
+    height: 90px;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.balance img{
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.balance h1{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: .8rem;
+    font-weight: 400;
+    color: hsl(27, 66%, 92%);
+}
+.balance h2{
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #fff;
+}
+.container{
+    background-color: #fff;
+    height: 350px;
+    margin-top: 15px;
+    width: 420px;
+    border-radius: 15px;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: hsl(25, 47%, 15%);
+}
+
+.chart{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #a8a29b;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.chart-mon{
+    height: 40px;
+    width: 40px;
+    background-color: #eb755d;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.chart-tue{
+    height: 70px;
+    width: 40px;
+    background-color: #eb755d;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.chart-wed{
+    height: 100px;
+    width: 40px;
+    background-color: #b4dfe5;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.chart-day{
+    height: 70px;
+    width: 40px;
+    background-color: #eb755d;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.chart-day2{
+    height: 50px;
+    width: 40px;
+    background-color: #eb755d;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.chart-sat{
+    height: 80px;
+    width: 40px;
+    background-color: #eb755d;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.chart-sun{
+    height: 80px;
+    width: 40px;
+    background-color: #eb755d;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    color: #a8a29b;
+    margin-top: 5px;
+}
+
+.bottom-section{
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    color: #a8a29b;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+h5{
+    font-size: 1.8rem;
+    margin-left: 20px;
+    color: hsl(25, 47%, 15%);
+}
+#percent{
+    margin-top: 50px;
+    font-size: .9rem;
+    margin-left: 40px;
+    color: hsl(25, 47%, 15%);
+    font-weight: bold;
+}
+#month{
+    color: #a8a29b;
+    margin-right: 20px;
+}
+.chart-expense-mon, .chart-expense-tue, .chart-expense-wed, .chart-expense-thurs, .chart-expense-fri, .chart-expense-sat, .chart-expense-sun{
+    background-color: #000;
+    padding-top: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+    width: 40px;
+    height: 25px;
+    font-size: .7rem;
+    color: #fff;
+    margin-top: 80px;
+}
+.chart-expense-mon p, .chart-expense-tue p, .chart-expense-wed p, .chart-expense-thurs p, .chart-expense-fri p, .chart-expense-sat p, .chart-expense-sun p{
+    color: hsl(27, 66%, 92%);
+}
+.chart-expense-tue{
+    margin-top: 50px;
+}
+.chart-expense-wed{
+    margin-top: 20px;
+}
+.chart-expense-thurs{
+    margin-top: 50px;
+}
+.chart-expense-fri{
+    margin-top: 70px;
+}
+.chart-expense-sat, .chart-expense-sun{
+    margin-top: 40px;
+}
+.active{
+    visibility: hidden;
+}
